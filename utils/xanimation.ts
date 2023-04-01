@@ -144,7 +144,7 @@ interface animationInterface{
   delay?:number
 }
 
-export const moveAnimation = ({x=0,y=0,duration=0.5,opacity=1,delay=0.5}:animationInterface)=>{
+export const moveAnimation = ({x=0,y=0,duration=0.5,opacity=1,delay=0}:animationInterface)=>{
   return{
     initial:{
       x,y,opacity

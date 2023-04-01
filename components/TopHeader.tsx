@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import Header from './Header'
+import Header from './Header/Header'
 import { useInView } from 'react-intersection-observer'
 import AllContext from '@/store/AllContext'
 import { useSetView } from '@/hooks/useControl'

@@ -18,7 +18,7 @@ export default function HeroChart() {
   return (
     <motion.div ref={divref}  variants={moveAnimation({y:50,opacity:0,duration:1})} initial="initial" animate={divControl} className='absolute bottom-4 sm:bottom-32 md:bottom-10 -left-[49px] z-20 md:-left-[15px] lg:-left-[112px] sm:-left-16'>
         <div className='h-[350px] w-[400px] relative '>
-            <Image src={Resources.Graphrectangle} alt=''/>
+            <Image src={Resources.Graphrectangle} alt='' priority/>
         </div>
         <div className='-6 z-30 absolute top-2 left-[60px] h-[310px] w-[280px] pt-6 px-6'>
         <div className='flex justify-between items-center'>
