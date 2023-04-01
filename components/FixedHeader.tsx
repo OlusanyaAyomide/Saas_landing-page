@@ -10,6 +10,6 @@ export default function FixedHeader() {
     const {setHeaderInView} = useContext(AllContext)
     const setview = useSetView({isInView,setIsInView:setHeaderInView})
   return (
-    <motion.div variants={moveAnimation({y:-50})} initial="initial" animate="animate" className='bg-white  w-full fixed -top-2 pt-2 z-50'><Header/></motion.div>
+    <motion.div variants={moveAnimation({y:-80})} initial="initial" animate="animate" className='bg-white  w-full fixed -top-2 pt-2 z-50'><Header/></motion.div>
   )
 }

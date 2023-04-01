@@ -104,7 +104,7 @@ export const roundedAnimation ={
 export const heroContainer={
   animate:{
     transition:{
-      staggerChildren:0.35
+      staggerChildren:0.5
   }
  }
 }
@@ -117,7 +117,7 @@ export const heroChildren={
     y:0,
     opacity:1,
     transition:{
-      duration:0.4,
+      duration:0.8,
     }
   }
 }
@@ -140,18 +140,21 @@ interface animationInterface{
   x?:number,
   y?:number,
   duration?:number
+  opacity?:number
+  delay?:number
 }
 
-export const moveAnimation = ({x=0,y=0,duration=0.5}:animationInterface)=>{
+export const moveAnimation = ({x=0,y=0,duration=0.5,opacity=1,delay=0.5}:animationInterface)=>{
   return{
     initial:{
-      x,y
+      x,y,opacity
     },
     animate:{
       x:0,
       y:0,
+      opacity:1,
       transition:{
-        duration
+        duration,delay
       }
     }
   }

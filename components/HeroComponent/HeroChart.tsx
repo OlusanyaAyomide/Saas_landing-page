@@ -5,15 +5,18 @@ import { BarChart } from '@/utils/constants'
 import { motion,useAnimation } from 'framer-motion'
 import { useControls } from '@/hooks/useControl'
 import { useInView } from 'react-intersection-observer'
-import { BarAnimation } from '@/utils/xanimation'
+import { BarAnimation,moveAnimation } from '@/utils/xanimation'
 
 export default function HeroChart() {
   const reading = ["8k","6k","4k","2k"]
   const [ref,isInView] = useInView({threshold:0.6})
+  const [divref,divInView] = useInView()
   const control = useAnimation()
+  const divControl = useAnimation()
   const animate = useControls({control,isInView,repeat:true})
+  const animatediv = useControls({control:divControl,isInView:divInView,})
   return (
-    <div className='absolute bottom-4 sm:bottom-32 md:bottom-10 -left-[49px] z-20 md:-left-[15px] lg:-left-[112px] sm:-left-16'>
+    <motion.div ref={divref}  variants={moveAnimation({y:50,opacity:0,duration:1})} initial="initial" animate={divControl} className='absolute bottom-4 sm:bottom-32 md:bottom-10 -left-[49px] z-20 md:-left-[15px] lg:-left-[112px] sm:-left-16'>
         <div className='h-[350px] w-[400px] relative '>
             <Image src={Resources.Graphrectangle} alt=''/>
         </div>
@@ -56,6 +59,6 @@ export default function HeroChart() {
         </div>
         </div>
    
-    </div>
+    </motion.div>
   )
 }

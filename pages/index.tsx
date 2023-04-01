@@ -9,11 +9,13 @@ export default function Home() {
   const {headerInView,headertriggered} = useContext(AllContext)
   return (
    <Fragment>
-      <div className='min-h-[100vh] hero-bg pb-20'>
+    <div className='min-h-[300vh] '>
+      <div className=' hero-bg pb-20'>
         { <TopHeader/>}
         {!headerInView && headertriggered &&  <FixedHeader/>}
         <Hero/>
       </div>
+    </div>
    </Fragment>
   )
 }
