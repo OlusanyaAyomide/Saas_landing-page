@@ -104,20 +104,20 @@ export const roundedAnimation ={
 export const heroContainer={
   animate:{
     transition:{
-      staggerChildren:0.5
+      staggerChildren:0.3
   }
  }
 }
 export const heroChildren={
   initial:{
-    y:20,
+    y:60,
     opacity:0
   },
   animate:{
     y:0,
     opacity:1,
     transition:{
-      duration:0.8,
+      duration:0.5,
     }
   }
 }

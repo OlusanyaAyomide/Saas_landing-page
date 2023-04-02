@@ -3,10 +3,17 @@ import { Typography } from '@/utils/constants'
 import { svResource } from '@/public/svg/svexporter'
 import Image from 'next/image'
 import { Resources } from '@/public/images/exporter'
+import { useControls } from '@/hooks/useControl'
+import { motion,useAnimation } from 'framer-motion'
+import { useInView } from 'react-intersection-observer'
+import { moveAnimation } from '@/utils/xanimation'
 
 export default function WorkFlow2() {
+  const control = useAnimation()
+  const [ref,isInView] = useInView({threshold:0.2})
+  const animate = useControls({isInView,control,repeat:true})
   return (
-    <div className='w-full rounded-md overflow-hidden sm:w-[475px] h-[580px]  mx-auto lg:mx-0 relative lg:right-8'>
+    <motion.div ref={ref} className='w-full rounded-md overflow-hidden sm:w-[475px] h-[580px]  mx-auto lg:mx-0 relative lg:right-8' initial="initial" animate={control} variants={moveAnimation({x:30,opacity:0,duration:1})} >
           <Image src={svResource.flow1} alt="" className='w-full h-full object-cover relative lg:right-4 xl:right-8 '/>
           <div className='absolute inset-0 lg:right-4'>
             <div className='h-[80px] w-[80px] rounded-xl absolute top-16 right-4 sm:right-16 z-20 brandgradient text-white font-[500] text-[34px] flex items-center justify-center'>$5k</div>
@@ -35,6 +42,6 @@ export default function WorkFlow2() {
                 <p className='relative w-full sm:w-10/12 mx-auto hero-paragraph text-base text-center'>{Typography.marketting}</p>
               </div>
           </div>
-    </div>
+    </motion.div>
   )
 }

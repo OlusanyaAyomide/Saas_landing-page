@@ -9,7 +9,10 @@ export const Typography={
     offerText:" in virtual space through communication platforms. Durable relations that extend beyond immediate genealogical ties.",
     worktext:"Resolving neglected sir tolerably but existence conveying for. Day his put off unaffected literature partiality inhabiting.",
     intelligent:"Marketing intelligence (MI) is the everyday information relevant to a company's markets",
-    marketting:"Marketing intelligence is necessary when entering a foreign market. determines the intelligence needed"
+    marketting:"Marketing intelligence is necessary when entering a foreign market. determines the intelligence needed",
+    external:"This allows them to see current key performance",
+    testimony:"Community development is often linked with community work or community planning, and may involve stakeholders, foundations,",
+    project:"Warrant present garrets limited cordial in inquiry to. Supported me sweetness behaviour shameless excellent so arranging."
 }
 
 export const BarChart = [
@@ -71,4 +74,70 @@ export const offerList=[
         image:Resources.NotePad,header:"Monthly Update",text:"Take control of your work day. In a just a few minutes, create a customized workflow  "
     },
 
+]
+
+export const smallBars=[
+    {
+        height:64,
+        image:Resources.Bar17
+    },
+    {
+        height:27,
+        image:Resources.Bar18
+    },
+    {
+        height:21,
+        image:Resources.Bar19
+    },
+    {
+        height:64,
+        image:Resources.Bar20
+    },
+]
+
+export const ProductArray =[
+    {
+        header:"starter",
+        price:"$59",
+        content:[
+            "Feedback Categorization",
+            "Features prioritization",
+            "Real-time collaboration",
+            "Feedback loop notifications",
+            "Essential dev tools integrations"
+        ],
+        button:"Contact Us"
+    },
+    {
+        header:"For Teams",
+        price:"$99",
+        content:[
+            "Feedback Categorization",
+            "Features prioritization",
+            "Real-time collaboration",
+            "Feedback loop notifications",
+            "Essential dev tools integrations"
+        ],
+        button:"Purchase Package"
+    },
+    {
+        header:"For Teams",
+        price:"Custom",
+        content:[
+            "Feedback Categorization",
+            "Feedback loop notifications",
+            "Essential dev tools integrations"
+        ],
+        button:"Contact Us"
+    },
+    
+]
+
+export const TestimonyText=[
+    {content:"Up maids me an ample stood given. Certainty say suffering his him collected intention promotion.",name:"Chris Evans",location:"USA"
+},
+{content:"Certainty say suffering his him collected intention promotion. Hill sold ham men made lose case. Views abode law heard jokes too.",name:"Andrew Chris",location:"Uganda"
+},
+{content:"Up maids me an ample stood given. Certainty say suffering his him collected intention promotion.",name:"Chris Evans",location:"USA"
+},
 ]

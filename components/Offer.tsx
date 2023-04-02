@@ -19,7 +19,7 @@ export default function Offer() {
       <div className='mt-12 flex xl:px-12 justify-center flex-wrap' ref={ref}>
         {offerList.map((item,key)=>{
           return(
-            <motion.div initial="initial" animate={control} variants={moveAnimation({y:50,opacity:0,delay:0,duration:1.5})} className='mx-2 w-[282px] py-8 px-6  bg-white   rounded-md mb-6' key={key} >
+            <motion.div initial="initial" animate={control} variants={moveAnimation({y:50,opacity:0,delay:0,duration:1.5})} className='mx-2  shadow-sm w-[282px] py-8 pb-12 px-6  bg-white   rounded-md mb-6' key={key} >
               <div className='w-[50px] h-[50px] shadow-2xl shadow-black/10 sm:w-[60px] sm:h-[60px] rounded-full bg-[#ECEEFF] p-3'>
                 <Image src={item.image} alt="" className='h-full w-full object-contain'/>
               </div>

@@ -4,12 +4,19 @@ import { svResource } from '@/public/svg/svexporter'
 import Image from 'next/image'
 import { Resources } from '@/public/images/exporter'
 import WorkFlow2 from './WorkFlow2'
+import WorkFlow3 from './WorkFlow3'
+import { useControls } from '@/hooks/useControl'
+import { motion,useAnimation } from 'framer-motion'
+import { useInView } from 'react-intersection-observer'
+import { moveAnimation } from '@/utils/xanimation'
 
 export default function WorkFlow() {
+  const control = useAnimation()
+  const [ref,isInView] = useInView({threshold:0.2})
+  const animate = useControls({isInView,control,repeat:true})
   return (
     <section className="lowpadding xl:px-20 flex flex-wrap mt-12 justify-between relative overflow-hidden">
-
-        <div className='w-full sm:w-[475px] sm:mx-auto lg:mx-0 relative lg:left-12 xl:left-20 z-20'>
+        <motion.div initial="initial" animate={control} variants={moveAnimation({x:-30,opacity:0,duration:1})} className='w-full sm:w-[475px] sm:mx-auto lg:mx-0 relative lg:left-12 xl:left-20 z-20' ref={ref}>
             <h1 className='text-center lg:text-left'><span className='section-header lg:pl-6'>How It Works?</span></h1>
             <p className='hero-paragraph mt-2 md:w-10/12 mx-auto text-base text-center lg:text-left lg:mx-0 lg:pl-6'>{Typography.worktext}</p>
             <div className='w-full rounded-md overflow-hidden sm:w-[475px] h-[580px] mt-8 mx-auto lg:mx-0 relative'>
@@ -40,9 +47,10 @@ export default function WorkFlow() {
           
               </div>
             </div>
-        </div>
+        </motion.div>
         <div className='w-full sm:w-[475px] sm:mx-auto lg:mx-0 relative z-20'>
           <WorkFlow2/>
+          <WorkFlow3/>
         </div>
     </section>
   )
