@@ -12,7 +12,7 @@ export default function OverLay() {
     return <Image src={src} alt="" className={`h-fit w-fit ${style}`}/>
   }
   return (
-    <div className='relative overflow-x-hidden -mt-[475px] pt-[460px] sm:pt-[520px] bg-[#F8F8FF] h-[850px] -skew-y-[17deg]'>
+    <div className='relative overflow-x-hidden -mt-[470.5px] pt-[460px] sm:pt-[400px] bg-[#F8F8FF] h-[850px] -skew-y-[17deg]'>
         <div className='skew-y-[17deg] flex flex-wrap widepadding'>
             <div className='w-6/12 sm:w-4/12 lg:w-[20%] items-center h-[60px] py-2 relative  flex'>
               <div className='relative w-[50px] h-full mr-3 top-2'>

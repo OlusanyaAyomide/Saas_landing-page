@@ -24,7 +24,7 @@ export default function Hero() {
                 </motion.div>
             </motion.div>
         </div>
-        <div className='w-full lg:w-6/12 h-[1100px] sm:h-[830px] md:h-[614px] relative z-20 mt-12 lg:mt-0 left-4'>
+        <div className='w-full lg:w-6/12 h-[1100px] sm:h-[930px] md:h-[614px] relative z-20 mt-12 lg:mt-0 left-4'>
             <DataComponent/>
             <MediaType/>
             <HeroChart/>

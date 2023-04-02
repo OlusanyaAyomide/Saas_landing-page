@@ -6,7 +6,10 @@ export const NavLinks=[
 export const Typography={
     herotext:"Warrant present garrets limited cordial in inquiry to. Supported me sweetness behaviour shameless excellent so arranging.",
     MediaText:"72.3% of the media for #sunrise are photos.",
-    offerText:" in virtual space through communication platforms. Durable relations that extend beyond immediate genealogical ties."
+    offerText:" in virtual space through communication platforms. Durable relations that extend beyond immediate genealogical ties.",
+    worktext:"Resolving neglected sir tolerably but existence conveying for. Day his put off unaffected literature partiality inhabiting.",
+    intelligent:"Marketing intelligence (MI) is the everyday information relevant to a company's markets",
+    marketting:"Marketing intelligence is necessary when entering a foreign market. determines the intelligence needed"
 }
 
 export const BarChart = [

@@ -20,11 +20,16 @@ import StopB from "./StopB.svg";
 import TL from "./TL.svg";
 import TopHook from "./TopHook.svg";
 import Umbraco from "./Umbraco.svg";
-import LB from "./LB.svg"
-import IB from "./IB.svg"
-import BL from "./BL.svg"
-import RS from "./RS.svg"
+import LB from "./LB.svg";
+import IB from "./IB.svg";
+import BL from "./BL.svg";
+import RS from "./RS.svg";
+import flow1 from "./flow01.svg";
+import flow2 from "./Flow2.svg";
+import flow3 from "./Flow3.svg";
+import Location from "./Location.svg"
+
 
 export const svResource={
-    AB,Al,BottomHook,BS,DayText,EB,El,FB,Gl,HB,HL,IL,LL,PB,PL,PlanText,Rb,SB,StopB,TL,TopHook,Umbraco,LB,IB,BL,RS
+    AB,Al,BottomHook,BS,DayText,EB,El,FB,Gl,HB,HL,IL,LL,PB,PL,PlanText,Rb,SB,StopB,TL,TopHook,Umbraco,LB,IB,BL,RS,flow1,flow2,flow3,Location
 }

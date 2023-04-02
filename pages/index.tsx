@@ -6,6 +6,7 @@ import TopHeader from '@/components/TopHeader'
 import FixedHeader from '@/components/Header/FixedHeader'
 import OverLay from '@/components/OverLay'
 import Offer from '@/components/Offer'
+import WorkFlow from '@/components/WorkFlow'
 
 export default function Home() {
   const {headerInView,headertriggered} = useContext(AllContext)
@@ -19,6 +20,7 @@ export default function Home() {
       </div>
       <OverLay/>
       <Offer/>
+      <WorkFlow/>
       </div>
    </Fragment>
   )

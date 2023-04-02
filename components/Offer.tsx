@@ -13,7 +13,7 @@ export default function Offer() {
   const animate = useControls({control,isInView})
 
   return (
-    <section className='-mt-32 lg:-mt-44  relative lowpadding'>
+    <section className='-mt-32 lg:-mt-72  relative lowpadding'>
       <h1 className='text-center'><span className="section-header">What we Offer?</span></h1>
       <p className=' hero-paragraph font-semibold mt-0 sm:px-2 md:w-10/12 sm:mx-auto lg:w-8/12 text-center'>{Typography.offerText}</p>
       <div className='mt-12 flex xl:px-12 justify-center flex-wrap' ref={ref}>

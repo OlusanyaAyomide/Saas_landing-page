@@ -37,8 +37,20 @@ import Earth from "./Earth.png";
 import NotePad from "./NotePad.png";
 import Shield from "./Shield.png";
 import Trowel from "./Trowel.png";
+import Bar12 from "./Bar12.png";
+import Bar13 from "./Bar13.png";
+import Bar14 from"./Bar14.png";
+import Bar15 from "./Bar15.png";
+import Bar16 from "./Bar16.png";
+import Person2 from "./Person2.png";
+import Person3 from "./Person3.png";
+import Person4 from "./Person4.png";
+import ArowDown from "./ArrowDown.png";
+import LeftTrapezium from "./LeftTrapezium.png"
+import Person6 from "./person6.png";
+import Person7 from "./Person7.png"
 
 
 export const Resources={
-    EmojiRectangle,Graphrectangle,GrowthRectangle,Person1,MediaRectangle,Vector,halfCircle,Union,fullCicle,chatBox,Bar1,Bar2,Bar3,Bar4,Bar5,Bar6,Bar7,Bar8,Bar9,Bar10,Bar11,Growth2Rectangle,AngryCircle,AngryEye,AngryEyeBrow,AngryMouth,LoveCircle,LoveLove,SupEye,SupMouth,supCircle,SupEyeBrow,Bigrectangle,chatIcon,EarPhone,Earth,NotePad,Shield,Trowel
+    EmojiRectangle,Graphrectangle,GrowthRectangle,Person1,MediaRectangle,Vector,halfCircle,Union,fullCicle,chatBox,Bar1,Bar2,Bar3,Bar4,Bar5,Bar6,Bar7,Bar8,Bar9,Bar10,Bar11,Growth2Rectangle,AngryCircle,AngryEye,AngryEyeBrow,AngryMouth,LoveCircle,LoveLove,SupEye,SupMouth,supCircle,SupEyeBrow,Bigrectangle,chatIcon,EarPhone,Earth,NotePad,Shield,Trowel,Bar12,Bar13,Bar14,Bar15,Bar16,Person2,Person3,Person4,ArowDown,LeftTrapezium,Person6,Person7
 }
