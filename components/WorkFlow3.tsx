@@ -51,7 +51,7 @@ export default function WorkFlow3() {
       </div>
    
     </div>
-    <div className='absolute shadow-md  bg-white rounded-xl w-[325px] -bottom-4 --left-8 sm:-left-16 md:-left-36 px-4 py-2'>
+    <div className='absolute shadow-md  bg-white rounded-xl w-[325px] bottom-0 -left-8 sm:-left-16 md:-left-36 px-4 py-2'>
         <h1 className='text-[24px] text-brand-blue text-center md:text-[26px] font-roboto font-[500] mb-1'>External Data</h1>
         <p className='hero-paragraph text-base text-center mt-0 mb-2'>{Typography.external}</p>
     </div>

@@ -32,8 +32,9 @@ import blueMark from  "./BlueMark.svg";
 import whiteMark from "./whiteMark.svg"
 import Arrow from "./Arrow.svg"
 import ArrorR from "./ArrowR.svg"
-
+import ArrowTop from "./ArrowTop.svg"
+import ArrowBottom from "./ArrowBottom.svg"
 
 export const svResource={
-    AB,Al,BottomHook,BS,DayText,EB,El,FB,Gl,HB,HL,IL,LL,PB,PL,PlanText,Rb,SB,StopB,TL,TopHook,Umbraco,LB,IB,BL,RS,flow1,flow2,flow3,Location,blueMark,whiteMark,Arrow,ArrorR
+    AB,Al,BottomHook,BS,DayText,EB,El,FB,Gl,HB,HL,IL,LL,PB,PL,PlanText,Rb,SB,StopB,TL,TopHook,Umbraco,LB,IB,BL,RS,flow1,flow2,flow3,Location,blueMark,whiteMark,Arrow,ArrorR,ArrowTop,ArrowBottom
 }

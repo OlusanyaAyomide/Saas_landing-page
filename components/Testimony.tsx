@@ -25,7 +25,7 @@ export default function Testimony() {
          <div className='mt-16 flex  overflow-auto pb-4 lg:justify-center' ref={ref}>
             {TestimonyText.map((item,key)=>{
                 return(
-                  <div>
+                  <div key={key}>
                     <div className={`w-[350px] bg-white mb-6 ${key===1?"":"opacity-[80%] scale-75"} mx-2 shadow-lg p-6 px-4 rounded-[10px]`} key={key}>
                       <h1 className='w-fit mx-auto mb-6 flex'>
                         <Star/><Star/><Star/><Star/><Star/>
