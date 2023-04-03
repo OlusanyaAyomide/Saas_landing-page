@@ -1,12 +1,16 @@
 import React from 'react'
 import { Typography } from '@/utils/constants'
+import { useInView } from 'react-intersection-observer'
+import { useCounter } from '@/hooks/useControl'
 
 export default function Projects() {
+  const [ref,isInview] = useInView({threshold:0.1})
+  const count = useCounter(isInview)
   return (
     <div   className='mt-24 widepadding bg-[#F8F3FF] py-32'>
-        <div className='flex'>
+        <div className='flex'ref={ref}>
             <div className='w-4/12'>
-              <span className='gradienttext block w-fit mx-auto project-text'>25,356</span>
+              <span className='gradienttext block w-fit mx-auto project-text'>{count.toLocaleString()}</span>
               <p className='text-center text-xs xl:text-xl lg:text-base text-brand-blue'>Projects Done</p>
             </div>
             <div className='w-4/12'>
