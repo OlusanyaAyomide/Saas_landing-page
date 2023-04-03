@@ -1,5 +1,5 @@
 import EmojiRectangle from './EmojiRectangle.png';
-import GraphRectangle from './GraphRectangle.png';
+import GraphRectangle from './GraphRectangle2.png';
 import GrowthRectangle from './GrowthRectangle.png';
 import Person1 from './Person1.png';
 import MediaRectangle from './MediaRectangle.png';
