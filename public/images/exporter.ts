@@ -16,6 +16,7 @@ import Bar5 from "./Bar5.png";
 import Bar6 from "./Bar6.png";
 import Bar7 from "./Bar7.png";
 import Bar8 from "./Bar8.png";
+
 import Bar9 from "./Bar9.png";
 import Bar10 from "./Bar10.png";
 import Bar11 from "./Bar11.png";
