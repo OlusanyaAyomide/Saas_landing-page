@@ -16,7 +16,7 @@ export default function Hero() {
             <Image src={svResource.ArrowTop} alt='' className='w-[4em] h-[4em] sm:w-[5em] sm:h-[5em] md:w-[7em] md:h-[7em] xl:w-[8em] xl:h-[8em]'/>
         </div>
         <div className='w-full relative lg:right-2 pt-8  lg:pt-0 lg:w-6/12 mb-20 lg:mb-20 widepadding lg:pr-2 lg:pl-40 z-20'>
-            <motion.div variants={moveAnimation({y:40,opacity:0,duration:1.2})} initial="initial" animate="animate">
+            <motion.div variants={moveAnimation({opacity:0,duration:1.2})} initial="initial" animate="animate">
                 <span className='block my-2 gradienttext herotext'>Tell a better</span>
                 <span className='block my-2 gradienttext herotext'>brand Story</span>
                 <span className='hero-paragraph font-semibold lg:pr-6'>{Typography.herotext}</span>

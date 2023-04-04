@@ -58,6 +58,7 @@ import leftArc from "./leftArc.png";
 import RightArc from "./RightArc.png";
 import Person8 from "./person8.png";
 
+
 export const Resources={
     EmojiRectangle,GraphRectangle,GrowthRectangle,Person1,MediaRectangle,Vector,halfCircle,Union,fullCicle,chatBox,Bar1,Bar2,Bar3,Bar4,Bar5,Bar6,Bar7,Bar8,Bar9,Bar10,Bar11,Growth2Rectangle,AngryCircle,AngryEye,AngryEyeBrow,AngryMouth,LoveCircle,LoveLove,SupEye,SupMouth,supCircle,SupEyeBrow,Bigrectangle,chatIcon,EarPhone,Earth,NotePad,Shield,Trowel,Bar12,Bar13,Bar14,Bar15,Bar16,Person2,Person3,Person4,ArowDown,LeftTrapezium,Person6,Person7,Bar17,Bar18,Bar19,Bar20,leftArc,RightArc,Person8
 }

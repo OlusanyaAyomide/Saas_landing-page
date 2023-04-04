@@ -27,7 +27,7 @@ export default function WorkFlow() {
                   <Image src={Resources.Bar13} alt='' className='h-fit w-fit mb-2 block'/>
                   <div className='flex mt-2 items-center'>
                     <div className='h-[44px] w-[44px] overflow-hidden mr-4 relative rounded-full bg-[#515b63] shadow-2xl shadow-black/10'>
-                      <Image src={Resources.Person2} alt='' className='h-fit w-fit object-contain absolute -bottom-[5px]'/>
+                      <Image src={Resources.Person6} alt='' className='h-fit w-fit object-contain absolute -bottom-[4px]'/>
                     </div>
                     <Image src={Resources.Bar14} alt='' className='h-fit w-fit'/>
                   </div>

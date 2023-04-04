@@ -15,10 +15,7 @@ export default function OverLay() {
     <div className='relative overflow-x-hidden -mt-[470.5px] pt-[460px] sm:pt-[400px] bg-[#F8F8FF] h-[850px] -skew-y-[17deg]'>
         <div className='skew-y-[17deg] flex flex-wrap widepadding'>
             <div className='w-6/12 sm:w-4/12 lg:w-[20%] items-center h-[60px] py-2 relative  flex'>
-              <div className='relative w-[50px] h-full mr-3 top-2'>
-                <Img src={svResource.TopHook} style='absolute  z-10 left-0 '/>
-                <Img src={svResource.BottomHook} style='absolute z-10 left-[14.6px] bottom-[14.6px]'/>
-              </div>
+              <Img src={svResource.RoundLogSvg}/>
               <Img src={svResource.PlanText}/>
               <Img src={svResource.DayText} style='mt-1'/>
             </div>
@@ -52,10 +49,7 @@ export default function OverLay() {
             <div className='w-6/12 sm:w-4/12 lg:w-[20%] items-center h-[60px] py-2 relative  flex'>
               <Img src={svResource.PlanText}/>
               <Img src={svResource.DayText} style='mt-1'/>
-              <div className='relative w-[50px] h-full mr-3 top-2'>
-                <Img src={svResource.TopHook} style='absolute  z-10 left-0 '/>
-                <Img src={svResource.BottomHook} style='absolute z-10 left-[14.6px] bottom-[14.6px]'/>
-              </div>
+              <Img src={svResource.RoundLogSvg}/>
             </div>
         </div>
 

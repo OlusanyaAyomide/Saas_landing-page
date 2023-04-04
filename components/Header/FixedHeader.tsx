@@ -6,7 +6,7 @@ import Header from './Header'
 import { motion } from 'framer-motion'
 import { moveAnimation } from '@/utils/xanimation'
 export default function FixedHeader() {
-    const [ref,isInView] = useInView({threshold:0.2})
+    const [ref,isInView] = useInView({threshold:1})
     const {setHeaderInView} = useContext(AllContext)
     const setview = useSetView({isInView,setIsInView:setHeaderInView})
   return (

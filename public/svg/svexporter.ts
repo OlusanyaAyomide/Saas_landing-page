@@ -34,7 +34,11 @@ import Arrow from "./Arrow.svg"
 import ArrorR from "./ArrowR.svg"
 import ArrowTop from "./ArrowTop.svg"
 import ArrowBottom from "./ArrowBottom.svg"
+import LoveSvg from "./LoveSvg.svg";
+import AngrySvg from "./Angrysvg.svg";
+import SuprisedSvg from "./SuprisedSvg.svg";
+import RoundLogSvg from "./RoundLogosvg.svg"
 
 export const svResource={
-    AB,Al,BottomHook,BS,DayText,EB,El,FB,Gl,HB,HL,IL,LL,PB,PL,PlanText,Rb,SB,StopB,TL,TopHook,Umbraco,LB,IB,BL,RS,flow1,flow2,flow3,Location,blueMark,whiteMark,Arrow,ArrorR,ArrowTop,ArrowBottom
+    AB,Al,BottomHook,BS,DayText,EB,El,FB,Gl,HB,HL,IL,LL,PB,PL,PlanText,Rb,SB,StopB,TL,TopHook,Umbraco,LB,IB,BL,RS,flow1,flow2,flow3,Location,blueMark,whiteMark,Arrow,ArrorR,ArrowTop,ArrowBottom,LoveSvg,AngrySvg,SuprisedSvg,RoundLogSvg
 }
